@@ -1,8 +1,13 @@
-ï»¿# VESS
+# VESS
 VeryExpensiveSword&amp;Shield (VESS)
 2015 ~ 2016 Game Making Project
 
 # How to setup
-1. í•´ë‹¹ gitì„ clone ë°›ëŠ”ë‹¤.
-2. cocos2d í´ë”ì— ìˆëŠ” external.zipíŒŒì¼ì„ ì••ì¶• í‘¼ í›„ ë®ì–´ì”Œìš´ë‹¤.
-3. visual studioë¥¼ ì‹¤í–‰ í›„ ë¹Œë“œí•œë‹¤.
+1. ÇØ´ç gitÀ» clone ¹Ş´Â´Ù.
+2. cocos2d Æú´õ¿¡ ÀÖ´Â external.zipÆÄÀÏÀ» ¾ĞÃà Ç¬ ÈÄ µ¤¾î¾º¿î´Ù.
+3. visual studio¸¦ ½ÇÇà ÈÄ ºôµåÇÑ´Ù.
+
+#Android-Studio setting
+1. cmd¸¦ Å² µÚ ÇÁ·ÎÁ§Æ® ÃÖ»ó´Ü °æ·Î·Î µé¾î°£´Ù.
+2. cocos compile -p android --android-studio ¸¦ ÀÔ·ÂÇÏ¿© ºôµå¸¦ ½ÇÇàÇÑ´Ù.(ÇöÀç sdk19¿¡ Àû¿ëµÇ¾î ÀÖ´Ù.)
+3. ¾Èµå·ÎÀÌµå ½ºÆ©µğ¿À¸¦ Å² µÚ proj.android-studio ¸¦ ¿­¾î ½ÇÇàÇÑ´Ù.
