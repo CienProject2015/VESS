@@ -274,7 +274,7 @@ static void _log(const char *format, va_list args)
 
         tempBuf[MAX_LOG_LENGTH] = 0;
 
-        MultiByteToWideChar(CP_UTF8, 0, tempBuf, -1, wszBuf, sizeof(wszBuf));
+        MultiByteToWideChar(CP_ACP, 0, tempBuf, -1, wszBuf, sizeof(wszBuf));
         OutputDebugStringW(wszBuf);
         WideCharToMultiByte(CP_ACP, 0, wszBuf, -1, tempBuf, sizeof(tempBuf), nullptr, FALSE);
         printf("%s", tempBuf);
