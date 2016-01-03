@@ -79,6 +79,17 @@ bool StartScene::init()
 	sprite->setScale(0.2f);
 
 
+	setTouchListener();
+
+    // add the sprite as a child to this layer
+    this->addChild(sprite, 0);
+    
+
+    return true;
+}
+
+void StartScene::setTouchListener() 
+{
 	// make touch listener
 
 	auto listener = EventListenerTouchOneByOne::create();
@@ -88,12 +99,6 @@ bool StartScene::init()
 	listener->onTouchEnded = CC_CALLBACK_2(StartScene::onTouchEnded, this);
 	_eventDispatcher->addEventListenerWithSceneGraphPriority(listener, this);
 
-
-    // add the sprite as a child to this layer
-    this->addChild(sprite, 0);
-    
-
-    return true;
 }
 
 bool StartScene::onTouchBegan(cocos2d::Touch* touch, cocos2d::Event* unused_event)
