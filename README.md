@@ -3,11 +3,11 @@ VeryExpensiveSword&amp;Shield (VESS)
 2015 ~ 2016 Game Making Project
 
 # How to setup
-1. ÇØ´ç gitÀ» clone ¹Ş´Â´Ù.
-2. cocos2d Æú´õ¿¡ ÀÖ´Â external.zipÆÄÀÏÀ» ¾ĞÃà Ç¬ ÈÄ µ¤¾î¾º¿î´Ù.
-3. visual studio¸¦ ½ÇÇà ÈÄ ºôµåÇÑ´Ù.
+1. í•´ë‹¹ gitì„ clone ë°›ëŠ”ë‹¤.
+2. vess/cocos2d í´ë”ì— ìˆëŠ” external.zipíŒŒì¼ì„ ì••ì¶• í‘¼ í›„ ë®ì–´ì”Œìš´ë‹¤.
+3. visual studioë¥¼ ì‹¤í–‰ í›„ ë¹Œë“œí•œë‹¤.
 
 #Android-Studio setting
-1. cmd¸¦ Å² µÚ ÇÁ·ÎÁ§Æ® ÃÖ»ó´Ü °æ·Î·Î µé¾î°£´Ù.
-2. cocos compile -p android --android-studio ¸¦ ÀÔ·ÂÇÏ¿© ºôµå¸¦ ½ÇÇàÇÑ´Ù.(ÇöÀç sdk19¿¡ Àû¿ëµÇ¾î ÀÖ´Ù.)
-3. ¾Èµå·ÎÀÌµå ½ºÆ©µğ¿À¸¦ Å² µÚ proj.android-studio ¸¦ ¿­¾î ½ÇÇàÇÑ´Ù.
+1. cmdë¥¼ í‚¨ ë’¤ í”„ë¡œì íŠ¸ ìµœìƒë‹¨ ê²½ë¡œë¡œ ë“¤ì–´ê°„ë‹¤.
+2. cocos compile -p android --android-studio ë¥¼ ì…ë ¥í•˜ì—¬ ë¹Œë“œë¥¼ ì‹¤í–‰í•œë‹¤.(í˜„ì¬ sdk19ì— ì ìš©ë˜ì–´ ìˆë‹¤.)
+3. ì•ˆë“œë¡œì´ë“œ ìŠ¤íŠœë””ì˜¤ë¥¼ í‚¨ ë’¤ proj.android-studio ë¥¼ ì—´ì–´ ì‹¤í–‰í•œë‹¤.
