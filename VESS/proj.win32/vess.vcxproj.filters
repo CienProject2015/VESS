@@ -16,6 +16,9 @@
     <Filter Include="src\View">
       <UniqueIdentifier>{4a76b62d-ee37-452b-b193-ec61e4160e93}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Model">
+      <UniqueIdentifier>{02fedff1-4bdc-4259-af88-c430121e0f90}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -30,6 +33,9 @@
     <ClCompile Include="..\Classes\GameScene.cpp">
       <Filter>src\View</Filter>
     </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>src\Model</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -43,6 +49,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\GameScene.h">
       <Filter>src\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>src\Model</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
